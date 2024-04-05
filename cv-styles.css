@@ -1,0 +1,89 @@
+body{
+    background-color: #2d2d30;
+}
+nav{
+    background-color: blanchedalmond;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul{
+    
+    list-style-type: none;
+    padding-left: 900px;
+    
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+nav li{
+    display:inline-block;
+}
+
+nav li a{
+    display: inline-block;
+   text-decoration: none;
+   padding: 20px 10px;
+   color: black;
+   font-family: Arial;
+   font-size: larger;
+}
+
+nav li a:hover{
+    background-color: rgb(104, 82, 82);
+    color: white;
+}
+
+.myname{
+    padding-top: 100px;
+    color: black;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 100px ;
+    text-align: center;
+    transition: opacity 0.2s;
+    border: none;
+}
+
+.myname:hover{
+    color: blanchedalmond ;
+    cursor: pointer;
+    
+}
+
+.description{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+}
+.description:hover{
+    color: blanchedalmond;
+}
+.hi{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.no{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.cute{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.hbb{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.scroll{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
